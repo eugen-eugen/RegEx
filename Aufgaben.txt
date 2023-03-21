@@ -1,0 +1,7 @@
+Alle Wochentage finden: \w+day
+Alle Artikel finden: a|the|an
+Alle Wörter, die kein b enthalten: [a,c-z]+
+Alle Wörter, die b enthalten: \w*b\w*
+Alle Wörter, die a oder i enthalten: \w*[a,i]\w*
+Alle Wörter, die a und o enthalten: \w*((a\w*o)|(o\w*a))\w*
+Alle Datumseingaben: \d\d\..*\d\d\d\d
