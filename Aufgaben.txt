@@ -5,3 +5,4 @@ Alle Wörter, die b enthalten: \w*b\w*
 Alle Wörter, die a oder i enthalten: \w*[a,i]\w*
 Alle Wörter, die a und o enthalten: \w*((a\w*o)|(o\w*a))\w*
 Alle Datumseingaben: \d\d\..*\d\d\d\d
+KFZ-Kennzeichen: [A-ZÖÜÄ]{1,3}[ -]?([A-ZÖÜÄ]{1,2})? ?[1-9]{1}[0-9]{1,3}E?
